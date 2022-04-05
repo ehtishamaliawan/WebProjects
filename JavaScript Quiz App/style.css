@@ -1,0 +1,97 @@
+.container{
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	padding: 5px;
+	background: #bc7587;
+	width: 50%;
+	height: 450px;
+	text-align: center;
+	vertical-align: center;
+	border: 4px solid blue;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px #CCC;
+	}
+.marksDiv{
+            background-color: #7fffd4;
+            border: 1px solid #7fffd4;
+			float: right;
+			font-size: 20px;
+			padding: 10px;
+}
+#marks{
+          font-size: 20px;
+		  
+}
+#question{
+            margin-left: auto;
+	        margin-right: auto;
+            background-color: #0ea1a3;
+			width: 75%;
+			height: 150px;
+			font-size: 150px;
+			margin-top: 8%;
+			
+}
+.text1{
+            margin-left: auto;
+	        margin-right: auto;
+			width: 75%;
+			height: 50px;
+			margin-top: 5px;
+			text-align: center;
+            background-color: #fff8dc;
+            font-size: 20px;
+}
+.buttons{
+           margin-left: auto;
+	        margin-right: auto;
+			width: 100%;
+			height: 120px;
+			margin-top: 5px;
+			text-align: center;
+}
+.choices{
+           background-color: white;
+		   height: 120px;
+		   width: 20%;
+           border: 1px solid black;
+		   display: inline-block;
+		   font-size : 25px;
+		   font-weight: bold;
+		    
+}
+
+.choices:hover{
+	 background-color: #dda0dd;		   
+}
+
+#startButton{
+     margin-top: 5px;
+	 background-color: #90ee90;
+	 padding: 10px;
+	 font-size: 15px;
+	 font-weight: bold;
+}
+#startButton:hover{
+	background-color: #5f9ea0;
+}
+#resetButton{
+     margin-top: 5px;
+	 background-color: #90ee90;
+	 padding: 10px;
+	 font-size: 15px;
+	 font-weight: bold;
+}
+#resetButton:hover{
+	background-color: #5f9ea0;
+}
+.timeDiv{
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	width: 180px;
+	float: right;
+	margin-top: 10px;
+	background-color: #e9d7a9;
+}
