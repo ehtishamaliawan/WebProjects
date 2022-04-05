@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Quiz App By Ehtisham Ali</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="UTF-8">
+<meta name="HandheldFriendly" content="true">
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body style="background-image: linear-gradient(to right, #92ee92, #ffffff, #92ee92);">
+<div class='container'>
+<div class='marksDiv'> Marks: <span id='marks'>0</span></div>
+<div id='question'></div>
+<div class='text1'>Click correct answer from the choices below</div>
+<div class='buttons'>
+<button class='choices' id='choice1' value='' onclick='validateAns(this)'>Option 1</button> 
+<button class='choices' id='choice2' value='' onclick='validateAns(this)'>Option 2</button>
+<button class='choices' id='choice3' value='' onclick='validateAns(this)'>Option 3</button>
+<button class='choices' id='choice4' value='' onclick='validateAns(this)'>Option 4</button>
+</div>
+<button id='startButton' onclick='start()'>Start Quiz</button>
+<div class='timeDiv'>Time Remaining : <span id="time">02:00</span></div>
+</div>
+</body>
+</html>
