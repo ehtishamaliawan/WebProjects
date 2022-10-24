@@ -1,8 +1,6 @@
-//https://esymi5ndv4y.exactdn.com/wp-content/uploads/2022/10/loading-spinner.webp
-  
-  $(document).ready(function(){
+$(document).ready(function(){
                 $('#subButton').click(function(){
-                  alert("loadig");
+           $("#changeImg").attr("src","https://esymi5ndv4y.exactdn.com/wp-content/uploads/2022/10/loading-spinner.webp");
                     const a = $('#urlerId').val()
     var final = `https://bv23xuvq26.execute-api.us-east-2.amazonaws.com/youtube-profile-download?urler=${a}`
                     receive_change_image(final);
