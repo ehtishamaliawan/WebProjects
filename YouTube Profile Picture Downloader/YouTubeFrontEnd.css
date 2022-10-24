@@ -4,3 +4,6 @@ background-color: #008CBA; border-radius: 8px; transition-duration: 0.4s; color:
 #subButton:hover {
   background-color: red; color: white;
 }
+#urlerId{
+  width:80%; height:45px; border:5px; color:green; border-width:5px; border-style:solid;
+}
