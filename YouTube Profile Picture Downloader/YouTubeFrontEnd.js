@@ -7,7 +7,7 @@
             });
 
 async function receive_change_image(url) {
-    $("#changeImg").attr("src", 'https://www.freetoreads.com');
+    $("#changeImg").attr("src", 'https://esymi5ndv4y.exactdn.com/wp-content/uploads/2022/10/youtube-profile-picture-downloader.webp');
     let obj;
     const res = await fetch(url)
     obj = await res.json();
