@@ -1,3 +1,7 @@
+function loadingImage(){
+document.getElementById("changeImg").src="//esymi5ndv4y.exactdn.com/wp-content/uploads/2022/10/loading-spinner.webp";
+}
+
 $(document).ready(function(){
                 $('#subButton').click(function(){
                     const a = $('#urlerId').val()
