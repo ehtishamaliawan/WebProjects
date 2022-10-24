@@ -1,6 +1,4 @@
- $('#subButton').click(function(){
-                   document.getElementById("changeImg").src="https://esymi5ndv4y.exactdn.com/wp-content/uploads/2022/10/loading-spinner.webp";
-   });
+//https://esymi5ndv4y.exactdn.com/wp-content/uploads/2022/10/loading-spinner.webp
   
   $(document).ready(function(){
                 $('#subButton').click(function(){
