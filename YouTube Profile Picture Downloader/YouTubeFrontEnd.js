@@ -7,7 +7,7 @@
             });
 
 async function receive_change_image(url) {
-    $("#changeImg").attr("src", 'https://www.freetoreads.com/wp-content/uploads/2022/10/loading-spinner.webp');
+    $("#changeImg").attr("src", 'https://www.freetoreads.com');
     let obj;
     const res = await fetch(url)
     obj = await res.json();
